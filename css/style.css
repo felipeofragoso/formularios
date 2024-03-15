@@ -1,0 +1,131 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: lightgray;
+  font-family: Arial;
+  font-size: 1rem;
+}
+
+input,
+select,
+textarea {
+  padding: 15px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+.margin-top-10px {
+  margin-top: 10px;
+}
+
+.margin-bottom-10px {
+  margin-bottom: 10px;
+}
+
+.margin-top-15px {
+  margin-top: 15px;
+}
+
+.margin-bottom-15px {
+  margin-bottom: 15px;
+}
+
+.margin-top-25px {
+  margin-top: 25px;
+}
+
+.margin-bottom-25px {
+  margin-bottom: 25px;
+}
+
+.margin-top-50px {
+  margin-top: 50px;
+}
+
+.margin-bottom-50px {
+  margin-bottom: 50px;
+}
+
+.conteiner {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: lightgray;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.conteiner-box,
+.conteiner-formulario {
+  display: grid;
+  width: 400px;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.formulario-item {
+  display: grid;
+  gap: 5px;
+}
+
+.formulario-item-checkbox,
+.formulario-item-radio {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 5px;
+}
+
+.formulario-item-checkbox-input,
+.formulario-item-radio-input {
+  width: 15px;
+  height: 15px;
+}
+
+.btn,
+.btn-voltar {
+  text-decoration: none;
+  padding: 15px;
+  cursor: pointer;
+  background-color: lightgrey;
+  color: inherit;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover,
+.btn-voltar:hover {
+  padding: 15px;
+  cursor: pointer;
+  background-color: slategrey;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.asterisco {
+  color: indianred;
+}
+
+.demaize {
+  color: royalblue;
+}
+
+.politica-privacidade {
+  color: indianred;
+  text-decoration: none;
+}
+
+.imagem {
+  max-width: 100%;
+  border-radius: 15px;
+}
